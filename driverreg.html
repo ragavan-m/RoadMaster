@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="res/logo-color.png" type="image/x-icon">
+</head>
+<body>
+
+	<nav class="navbar" role="navigation" aria-label="main navigation" >
+		<div class="navbar-brand">
+		  <div data-aos="zoom-in data-aos-duration="1000">
+		  <a class="navbar-item" href="index.html">
+			<img src="res/logo-no-background.png" class="logo">
+		  </a>
+		</div>
+		</div> 
+	</nav>
+
+	<div class="section">
+		<div class="container">
+			<div class="columns">
+				<div class="column is-half is-offset-one-quarter">
+					<div class="card">
+						<div class="card-header">
+							<p class="card-header-title">Driver Registration</p>
+						</div>
+						<div class="card-content">
+							<form method="post" name="registeruser" action="driverreg.php" enctype="multipart/form-data">
+								<div class="field">
+									<label class="label">Name</label>
+									<div class="control">
+										<input class="input" type="text" placeholder="Enter your name" name="name" required>
+									</div>
+								</div>
+
+								<div class="field">
+									<label class="label">Mobile Number</label>
+									<div class="control">
+										<input class="input" type="text" maxlength="10" placeholder="Enter your mobile number" name="mobilenumber" required>
+									</div>
+								</div>
+
+								<div class="field">
+									<label class="label">Email</label>
+									<div class="control">
+										<input class="input" type="email" placeholder="Enter your E-mail" name="email" required>
+									</div>
+								</div>
+
+								<div class="field">
+									<label class="label">License Number</label>
+									<div class="control">
+										<input class="input" type="text" placeholder="Enter your license number" name="licensenumber" required>
+									</div>
+								</div>
+
+								<div class="field">
+									<label class="label">Upload License</label>
+									<div class="control">
+										<input type="file" name="license" required>
+									</div>
+								</div>
+
+								<div class="field">
+									<label class="label">Upload Photo</label>
+									<div class="control">
+										<input type="file" name="photo" required>
+									</div>
+								</div>
+
+								<div class="field">
+									<label class="label">Password</label>
+									<div class="control">
+										<input class="input" type="Password" placeholder="Enter your Password" name="Password_1" required>
+									</div>
+								</div>
+
+								<div class="field">
+									<label class="label">Confirm Password</label>
+									<div class="control">
+										<input class="input" type="Password" placeholder="Re-type your Password" name="Password_2" required>
+									</div>
+								</div>
+
+								<div class="field">
+									<label class="label">Address</label>
+									<div class="control">
+										<input class="input" type="text" placeholder="Enter your Address" name="address" required>
+									</div>
+									</div>
+									<div class="field is-grouped">
+										<div class="control">
+											<button class="button is-link" type="submit" name="register">Register</button>
+										</div>
+										<div class="control">
+											<button class="button is-link is-light" type="reset">Clear</button>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="card-footer">
+								<p>Already have an account? <a href="login.php">Login here</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		

@@ -1,0 +1,141 @@
+.button.is-primary {
+    background-color: #f9cc0b;
+  }
+  
+  .button.is-primary:hover {
+    background-color: #e2b90b;
+  }
+
+  .button.is-light {
+    background-color: #0c1d36;
+    color: #fff;
+  }
+  
+  .button.is-light:hover {
+    background-color: #1c3b6b;
+    color: #fff;
+  }
+
+  /* Navbar */
+  .navbar {
+    background-image: linear-gradient(to right, #3a86ff, #f9cc0b);
+
+}
+  
+  .navbar-item {
+    color: #f9cc0b;
+  }
+  
+  .navbar-link {
+    color: #f9cc0b;
+  }
+  
+  .navbar-link:hover {
+    color: #1c3b6b;
+  }
+  
+  .button.is-primary {
+    background-color: #f9cc0b;
+    border-color: #f9cc0b;
+    color: #0c1d36;
+  }
+  
+  .button.is-primary:hover {
+    background-color: #e3b70b;
+    border-color: #e3b70b;
+  }
+  
+  /* Page */
+  body {
+    
+    background-color: #f9cc0b;
+    color: #333333;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #0c1d36;
+  }
+  
+  a {
+    color: #0c1d36;
+  }
+  
+  a:hover {
+    color: #1c3b6b;
+  }
+
+  .hero {
+    background: linear-gradient(to bottom,#77b9d1, #f4f4f4);
+    color: #fff;
+  }
+  
+  .hero .title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero .subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+  }
+  .intro-list {
+    list-style-type: circle;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .intro-list li {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+    
+  .has-background-grey-dark {
+    background-color: #424242;
+  }
+
+  .box.has-background-primary {
+    background-color: #2B3D4F;
+  }
+  
+  
+  .future{
+    color: gold;
+  }
+
+  hr{
+    margin: 0;
+    height: 2px;
+  }
+  .footer {
+    background-color: #252b33;
+    color: #fff;
+    padding: 3rem 1.5rem;
+  }
+  
+  .footer-logo {
+    max-width: 200px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-tagline {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer-social {
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer-rights {
+    font-size: 0.8rem;
+  }
+  

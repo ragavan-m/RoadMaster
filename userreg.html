@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Register</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./bulma.min.css">
+	<link rel="shortcut icon" href="res/logo-color.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<nav class="navbar" role="navigation" aria-label="main navigation" >
+		<div class="navbar-brand">
+		  <div data-aos="zoom-in data-aos-duration="1000">
+		  <a class="navbar-item" href="index.html">
+			<img src="res/logo-no-background.png" class="logo">
+		  </a>
+		</div>
+		</div> 
+	</nav>
+
+	<div class="section">
+		<div class="container">
+			<div class="columns">
+				<div class="column is-half is-offset-one-quarter">
+					<div class="card">
+						<div class="card-header">
+							<p class="card-header-title">User Registration</p>
+						</div>
+						<div class="card-content">
+							<form method="post" name="registeruser" action="userreg.php" enctype="multipart/form-data">
+								<div class="field">
+									<label class="label">Name</label>
+									<div class="control">
+										<input class="input" type="text" placeholder="Enter your name" name="name" required>
+									</div>
+								</div>
+
+								<div class="field">
+									<label class="label">Mobile</label>
+									<div class="control">
+										<input class="input" type="text" maxlength="10" placeholder="Enter your mobile number" name="mobile" required>
+									</div>
+								</div>
+								
+								<div class="field">
+									<label class="label">Email</label>
+									<div class="control">
+										<input class="input" type="email" placeholder="Enter your email" name="email" required>
+									</div>
+								</div>
+
+								
+								
+								<div class="field">
+									<label class="label">Upload Photo Proof</label>
+									<div class="control">
+										<input type="file" name="photoProof" required>
+									</div>
+								</div>
+								<div class="field">
+									<label class="label">Password</label>
+									<div class="control">
+										<input class="input" type="password" placeholder="Enter your password" name="Password_3" required>
+									</div>
+								</div>
+
+								<div class="field">
+									<label class="label">Confirm Password</label>
+									<div class="control">
+										<input class="input" type="password" placeholder="Re-type your password" name="Password_4" required>
+									</div>
+								</div>
+								<div class="field">
+									<label class="label">Address</label>
+									<div class="control">
+										<input class="input" type="text" placeholder="Enter your Address" name="address" required>
+									</div>
+									</div>
+								<div class="field is-grouped">
+									<div class="control">
+										<button class="button is-link" type="submit" name="register">Register</button>
+									</div>
+									<div class="control">
+										<button class="button is-link is-light" type="reset">Clear</button>
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="card-footer">
+							<p>Already have an account? <a href="login.php">Login here</a></p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
